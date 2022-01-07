@@ -53,8 +53,6 @@ export const lattice = new LatticeConnector({
 
 export const frame = new FrameConnector({ supportedChainIds: [1] })
 
-export const authereum = new AuthereumConnector({ chainId: 42 })
-
 export const fortmatic = new FortmaticConnector({ apiKey: process.env.FORTMATIC_API_KEY as string, chainId: 4 })
 
 export const magic = new MagicConnector({
